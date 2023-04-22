@@ -14,7 +14,7 @@ public class Program2 {
 		System.out.println("Enter a word");
 		String word = ref.next();
 		System.out.println("word "+word);
-
+		ref.close();
 	}
 
 }
